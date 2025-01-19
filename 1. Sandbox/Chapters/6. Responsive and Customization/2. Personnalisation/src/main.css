@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Ajout de classes */
+.title {
+    background: #333;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+/* 
+    Ajout une classe à l'un des modules @ ci-dessus
+    Ne pas en abuser !!!
+ */
+@layer base {
+    h1 {
+        text-decoration: underline;
+        /* color: red; */
+        @apply text-2xl text-cyan-600;
+        font-style: italic;
+    }
+}
+@layer utilities {
+    .bomerle {
+        font-size: 33px;
+    }
+    .bomerlebig {
+        font-size: 50px;
+    }
+}
+
+@layer components {
+    .mybutton {
+        padding: 10px;
+        min-width: 150px;
+        background: darkcyan;
+        /* color: white; */
+        @apply text-white;
+        border: 2px solid white;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+}
