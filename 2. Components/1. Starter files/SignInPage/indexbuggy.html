@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up form</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-300">
+  <div class="left min-h-[600px] h-screen w-full flex flex-col items-center mt-52 md:flex-row">
+    <div class="w-96 flex-1 md:border md:border-red-700 ">
+      <h2 class="text-3xl leading-tight font-bold">Take a breath, sign up</h2>
+      <p class="text-green-800">Already have an account ? Sign in</p>
+      <div class="mt-6 space-y-4">
+        <form>
+          <label class="block text-sm my-2" for="email">Email address please</label>
+          <input class="border border-slate-500 rounded p-2 w-full" type="email" id="email" name="email">
+          <label class="block text-sm my-2" for="password">Password</label>
+          <input class="border border-slate-500  rounded p-2 w-full" type="password" id="password" name="password">
+          <label class="block text-sm my-2" for="confirm">Reepat password</label>
+          <input class="border border-slate-500  rounded p-2 w-full" type="password" id="confirm" name="confirm">
+          <div class="mt-6 flex justify-between">
+            <div>
+              <input type="checkbox" name="rem" id="rem">
+              <label class="ml-2" for="rem">Remember me</label>
+            </div>
+            <a href="#" class="text-green-800">Need help to sign up ? </a>
+          </div>
+          <button class=" text-white bg-green-800 text-center w-full p-3  mt-3
+                          rounded-md">
+            Sign up
+          </button>
+        </form>
+      </div>
+      <div class="socialnet mt-6 flex flex-col mx-auto items-center justify-center">
+        <p>Or Sign up</p>
+        <div class="icons mt-6 flex flex-row">
+          <a href="#" class="border border-slate-400 rounded bg-white shadow-sm p-4 mx-2">
+            <img src="./ressources/ig.svg" width="25px" alt="">
+          </a>
+          <a href="#" class="border border-slate-400 rounded bg-white shadow-sm p-4 mx-2">
+            <img src="./ressources/pinterest.svg" width="25px" alt="">
+          </a>
+          <a href="#" class="border border-slate-400 rounded bg-white shadow-sm p-4 mx-2">
+            <img src="./ressources/tumblr.svg" width="25px" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="right hidden relative flex-1 md:block md:border md:border-red-700">
+        <p class="text-lg">flmqslmfml qsfmlm</p>
+    </div>
+  </div>
+</body>
+</html> 
