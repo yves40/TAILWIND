@@ -13,17 +13,21 @@
         <span class=" font-thin">Your</span>
         <span class=" font-medium">Database</span>
       </div>
-      <div>
-        <nav class="flex mt-6 mb-3 items-center order-first md:order-last">
+      <div class="flex flex-col w-full items-center mt-6
+                md:justify-between md:flex md:flex-row md:px-20">
+        <nav class="flex order-first  md:order-last">
           <a href="#" class=" p-3 text-white bg-blue-500 rounded-lg">Members</a>
           <a href="#" class=" p-3">Admin</a>
           <a href="#" class=" p-3">Workers</a>
         </nav>
-        <div class="my-6 order-last md:order-first">
+        <div class="flex items-center w-3/4 order-last 
+              sm:w-4/5
+              md:order-first md:w-7/10">
           <label for="search">
             <img src="./ressources/magnifying-glass.svg" width="25" alt="">
           </label>
-          <input type="text" id="search" name="search" class=" p-1 border rounded border-slate-500 w-full ">
+          <input type="text" id="search" name="search" 
+                  class=" outline-none m-4 p-1 border rounded border-slate-500 w-full ">
         </div>
       </div>
     </div>
