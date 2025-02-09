@@ -8,6 +8,7 @@
   </head>
   <body>
     <section class=" bg-[url('../ressources/stylish-mesh-bg.jpg')] relative">
+      <!-- Nav Bar -->
       <nav class=" fixed top-0 z-20 bg-gray-50 p-4 w-full
                  grid grid-cols-1 shadow-md
                  md:max-w-7xl md:grid-cols-8 md:shadow-none 
@@ -40,11 +41,33 @@
         </ul>
         <div class="toggle-menu hidden flex justify-center items-center mt-6
                       md:mt-0 md:justify-end md:flex">
-            <a href="#accueil" class=" shadow-md px-6 py-2 border border-black font-medium rounded-md 
+            <a href="#accueil" class=" shadow-md px-6 py-2 border border-none font-medium rounded-md 
                   text-indigo-600
                   bg-white hover:bg-gray-50 text-center w-40" >Login</a>
         </div>
       </nav>
+      <!-- Bottom welcome section -->
+      <div class=" pt-40 pb-56 flex-col justify-center items-center text-center bg-white">
+        <h1 class=" uppercase text-4xl font-extrabold tracking-tight 
+         md:text-6xl md:px-20">
+          <span>faites décoller votre </span>
+          <span class=" text-blue-700 my-6">business en ligne</span>
+        </h1>
+        <p class="text-sm mx-6 mt-6 mb-12 md:px-40">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae incidunt facere similique id quas dolore suscipit omnis sed nemo tempore.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae incidunt facere similique id quas dolore suscipit omnis sed nemo tempore.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae incidunt facere similique id quas dolore suscipit omnis sed nemo tempore.
+        </p>
+        <div class="flex flex-col justify-center items-center
+                   md:flex-row">
+          <a href="#accueil" class="  bg-blue-700 text-white font-medium min-w-[250px] max-w-[250px]
+              px-8 py-3 mb-3 rounded p-2
+              md:mx-3 md:max-w-[200px] md:py-4">Commencer ✏️</a>
+          <a href="#accueil" class=" bg-transparent border-1 border-gray-400 text-black font-medium min-w-[250px] max-w-[250px]
+              px-8 py-3 mb-3 rounded p-2
+              md:mx-3 md:max-w-[200px] md:py-4">Démo 🧑‍💼</a>          
+        </div>
+      </div>
     </section>
   </body>
   <script src="./toggle.js"></script>
