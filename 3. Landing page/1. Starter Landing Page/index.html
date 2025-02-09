@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="./dist/main.css">
   </head>
   <body>
+    <!-- The welcome section -->
     <section class=" bg-[url('../ressources/stylish-mesh-bg.jpg')] relative">
       <!-- Nav Bar -->
       <nav class=" fixed top-0 z-20 bg-gray-50 p-4 w-full
-                 grid grid-cols-1 shadow-md
-                 md:max-w-7xl md:grid-cols-8 md:shadow-none 
-                 md:relative md:mx-auto md:bg-transparent">
+                  grid grid-cols-1 shadow-md
+                  md:max-w-7xl md:grid-cols-8 md:shadow-none 
+                  md:relative md:mx-auto md:bg-transparent">
         <div class="flex justify-between items-center md:justify-center">
           <a href="#accueil">
             <img src="./ressources/RocketLogo.svg" class=" w-12" alt="Rocket">
@@ -39,11 +40,11 @@
             <a href="#accueil" class=" font-medium text-lg text-zinc-800 hover:text-gray-900">Contact</a>
           </li>
         </ul>
-        <div class="toggle-menu hidden flex justify-center items-center mt-6
+        <div class="toggle-menu hidden flex  justify-start items-center mt-6
                       md:mt-0 md:justify-end md:flex">
             <a href="#accueil" class=" shadow-md px-6 py-2 border border-none font-medium rounded-md 
                   text-indigo-600
-                  bg-white hover:bg-gray-50 text-center w-40" >Login</a>
+                  bg-white hover:bg-gray-50 text-center w-40" >Log in</a>
         </div>
       </nav>
       <!-- Bottom welcome section -->
@@ -53,7 +54,7 @@
           <span>faites décoller votre </span>
           <span class=" text-blue-700 my-6">business en ligne</span>
         </h1>
-        <p class="text-sm mx-6 mt-6 mb-12 md:px-40">
+        <p class="text-sm mx-6 mt-6 mb-12 md:px-40 lg:max-lg:">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae incidunt facere similique id quas dolore suscipit omnis sed nemo tempore.
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae incidunt 
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -79,6 +80,10 @@
           </svg>
         </a>
       </div>
+    </section>
+    <!-- The action section -->
+    <section>
+      <div class="h-96"></div>
     </section>
   </body>
   <script src="./toggle.js"></script>
