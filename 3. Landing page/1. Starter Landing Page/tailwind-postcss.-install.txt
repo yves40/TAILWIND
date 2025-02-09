@@ -1,5 +1,15 @@
+---------------------------------------------------------------------------------------
+-- Fresh npm package.json
+---------------------------------------------------------------------------------------
 npm init -y
-npm install tailwindcss @tailwindcss/cli
-npm install postcss @tailwindcss/postcss autoprefixer
-npm install postcss-cli
+---------------------------------------------------------------------------------------
+-- Install TS and some others
+---------------------------------------------------------------------------------------
+npm install -D tailwindcss @tailwindcss/cli postcss @tailwindcss/postcss autoprefixer
+---------------------------------------------------------------------------------------
+-- Command to be executed for background compiler
+-- Use a package.json script
+-- src/input.css is manually created with this content : @import "tailwindcss";
+---------------------------------------------------------------------------------------
+npx tailwindcss -i ./src/input.css -o ./dist/main.css -w
 
