@@ -1,0 +1,5 @@
+npm init -y
+npm install tailwindcss @tailwindcss/cli
+npm install postcss @tailwindcss/postcss autoprefixer
+npm install postcss-cli
+
