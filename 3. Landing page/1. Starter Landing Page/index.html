@@ -7,9 +7,45 @@
     <link rel="stylesheet" href="./dist/main.css">
   </head>
   <body>
-    <head class=" mx-auto">
-      <h1 class=" bg-red-500 text-lg text-white">Test</h1>
-    </head>
-
+    <section class=" bg-[url('../ressources/stylish-mesh-bg.jpg')] relative">
+      <nav class=" fixed top-0 z-20 bg-gray-50 p-4 w-full
+                 grid grid-cols-1 shadow-md
+                 md:max-w-7xl md:grid-cols-8 md:shadow-none 
+                 md:relative md:mx-auto md:bg-transparent">
+        <div class="flex justify-between items-center md:justify-center">
+          <a href="#accueil">
+            <img src="./ressources/RocketLogo.svg" class=" w-12" alt="Rocket">
+          </a>
+          <button class=" icon-toggle bg-white rounded-md p-2 inline-flex
+                     items-center justify-center ring-1 ring-black
+                     md:hidden">
+            <img src="./ressources/menu.svg" class=" w-6 h-6" alt="menu">
+          </button>
+        </div>
+        <ul class="toggle-menu hidden px-1 pt-4 bg-gray-50 flex flex-col
+                  md:flex md:bg-transparent md:flex-row md:space-x-10 md:w-auto md:items-center 
+                  md:justify-center md:pt-0 md:col-span-6">
+          <li class=" py-2 text-center border-t border-gray-200 md:border-0">
+            <a href="#accueil" class=" font-medium text-lg text-zinc-800 hover:text-gray-900">Accueil</a>
+          </li>
+          <li class=" py-2 text-center border-t border-gray-200 md:border-0">
+            <a href="#accueil" class=" font-medium text-lg text-zinc-800 hover:text-gray-900">Services</a>
+          </li>
+          <li class=" py-2 text-center border-t border-gray-200 md:border-0">
+            <a href="#accueil" class=" font-medium text-lg text-zinc-800 hover:text-gray-900">Nos tarifs</a>
+          </li>
+          <li class=" py-2 text-center border-t border-b border-gray-200 md:border-0">
+            <a href="#accueil" class=" font-medium text-lg text-zinc-800 hover:text-gray-900">Contact</a>
+          </li>
+        </ul>
+        <div class="toggle-menu hidden flex justify-center items-center mt-6
+                      md:mt-0 md:justify-end md:flex">
+            <a href="#accueil" class=" shadow-md px-6 py-2 border border-black font-medium rounded-md 
+                  text-indigo-600
+                  bg-white hover:bg-gray-50 text-center w-40" >Login</a>
+        </div>
+      </nav>
+    </section>
   </body>
+  <script src="./toggle.js"></script>
 </html>
