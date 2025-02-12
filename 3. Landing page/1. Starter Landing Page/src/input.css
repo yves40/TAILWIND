@@ -11,6 +11,9 @@
   --color-avocado-600: oklch(0.53 0.12 118.34);
   --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
   --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+
+  --color-menu-300: oklch(71.51% 0.1 199);
+  --color-menu-600: oklch(58.83% 0.1 199);
 }
 
 
@@ -22,10 +25,15 @@
           grid-template-columns: 100px 1fr 100px;
           @media (width > 48rem) {              /* md: breakpoint */
             grid-template-columns: 200px 1fr 200px;
-            @apply border-4 border-red-800 text-sm
+            @apply border-4 border-red-800 text-sm;
           }
   }
   .attention {
     @apply  underline font-bold
+  }
+  a:hover {
+    color: var(--color-menu-600) ;
+    background-color: white;
+    @apply border-none rounded-2xl p-3;
   }
 }
