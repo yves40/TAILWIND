@@ -12,3 +12,16 @@
   --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
   --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
 }
+
+
+@layer yves {
+  .yvesgrid-col {
+    @apply shadow-2xl text-2xl bg-amber-600 text-white italic
+          grid justify-center items-center m-10 p-3 border-2 border-blue-700 rounded-2xl
+          grid-cols-1;
+          grid-template-columns: 100px 1fr 100px;
+          @media (width > 48rem) {             
+            grid-template-columns: 200px 1fr 200px;
+          }
+  }
+}
