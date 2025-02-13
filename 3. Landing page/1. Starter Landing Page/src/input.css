@@ -33,6 +33,6 @@
     @apply  font-bold
   }
   a:hover {
-    @apply font-extrabold;
+    @apply font-extrabold bg-amber-500 p-2 border border-none rounded-2xl ;
   }
 }
