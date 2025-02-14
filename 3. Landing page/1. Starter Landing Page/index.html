@@ -34,7 +34,7 @@
           </li>
           <li class=" py-2 text-center border-t border-gray-200 w-30
                           md:border-0">
-            <a href="#accueil" class="font-medium text-lg ">Services</a>
+            <a href="#services" class="font-medium text-lg ">Services</a>
           </li>
           <li class=" py-2 text-center border-t border-gray-200 w-30
                           md:border-0">
@@ -61,9 +61,9 @@
         </h1>
         <!-- Test section -->
         <div class="grid-col1-3fr">
-          <span class="  text-3xl">🐧</span>
+          <span class="text-3xl">🐧</span>
           <p>
-            <span class="attention">Feb 12 2025 [1.02]:</span>
+            <span class="attention">Feb 14 2025 [1.12]:</span>
             <span>Testing custom tailwindcss features like classes and vars.
               It's a long way to get this framework knowledge, but it's worth doing the effort.
             </span>
@@ -98,10 +98,38 @@
         </a>
       </div>
     </section>
-    <!-- The action section -->
-    <section>
-      <div class="h-96"></div>
+    <!-- The call to action section -->
+    <section id="services" class="relative flex flex-col items-center justify-center">
+      <div class="flex flex-col bg-slate-200 w-full lg:flex-row">
+        <div class="w-full h-full text-center p-8 order-2 lg:order-1 lg:w-1/2">
+          <h2 class=" font-extrabold sm:text-2xl md:text-5xl">
+            <span class="block uppercase">Passez à l'action</span>
+            <span class="block text-blue-500">Boostez votre SEO</span>
+          </h2>
+          <p class=" mt-3 mb-6 text-md mx-auto text-gray-800 max-w-xs
+             sm:text-xl md:mt-5 md:max-w-md">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis exercitationem
+              hic fuga dicta debitis. Cumque dignissimos neque voluptate voluptatum quos?
+          </p>
+          <a href="#" class=" min-w-[200px] text-center bg-blue-700 text-white p-2
+                   border-none rounded">
+            Essayez le 🛒
+          </a>
+        </div>
+        <div class=" h-96 w-full relative overflow-hidden  order-1 lg:static lg:w-1/2 lg:h-full lg:order-2">
+          <img src="./ressources/hommeTravail.jpg" alt="homesweethome" 
+                    class=" absolute w-full h-full object-cover object-center lg:w-1/2">
+        </div>
+      </div>
     </section>
   </body>
   <script src="./toggle.js"></script>
 </html>
+
+
+<!--
+          <a href="#" class=" min-w-[200px] text-center bg-blue-700 text-white p-2
+                   border-none rounded mt-4">
+            Essayez le 🛒
+          </a>
+-->
