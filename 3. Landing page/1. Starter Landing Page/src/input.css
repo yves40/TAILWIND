@@ -15,6 +15,9 @@
   --color-menu-300: oklch(71.51% 0.1 199);
   --color-menu-600: oklch(58.83% 0.1 199);
   --color-menu-800: oklch(37.5% 0.0518 199);
+
+  --color-bg-violet-300: oklch(64.39% 0.1554 286.41);
+  --color-bg-violet-500: oklch(47.77% 0.1554 286.41); 
 }
 
 
@@ -33,6 +36,6 @@
     @apply  font-bold
   }
   a:hover {
-    @apply font-extrabold bg-amber-500 p-2 border border-none rounded-2xl ;
+    @apply font-extrabold bg-menu-300 p-2 border border-none rounded-2xl ;
   }
 }
